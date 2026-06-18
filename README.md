@@ -14,11 +14,11 @@
 
 ---
 
-# 📸 Project Overview
+# 🎯 Project Overview
 
 This project demonstrates how to build an Artificial Neural Network (ANN) for a regression task using PyTorch.
 
-The model learns the relationship between environmental factors and electrical energy output, allowing accurate prediction of power generation under different operating conditions.
+The model learns the relationship between environmental factors and electrical energy output, enabling accurate prediction of power generation under different operating conditions.
 
 The project covers the complete machine learning workflow:
 
@@ -33,13 +33,13 @@ The project covers the complete machine learning workflow:
 
 ---
 
-# 🎯 Problem Statement
+# 📌 Problem Statement
 
 Power plants generate electricity based on several environmental conditions such as temperature, pressure, humidity, and vacuum.
 
 Accurately predicting power output helps improve operational efficiency and decision-making.
 
-This project uses an Artificial Neural Network (ANN) to estimate electrical energy output from these environmental measurements.
+This project uses an Artificial Neural Network (ANN) to estimate electrical energy output from environmental measurements.
 
 ---
 
@@ -70,9 +70,9 @@ The dataset contains operational and environmental measurements collected from a
 * ANN Implementation using PyTorch
 * Data Preprocessing using Scikit-Learn
 * Feature Scaling using StandardScaler
-* Batch Training with DataLoader
+* Batch Training using DataLoader
 * Model Checkpoint Saving
-* Mean Squared Error Evaluation
+* Mean Squared Error (MSE) Evaluation
 * R² Score Evaluation
 * Reusable Trained Model
 
@@ -134,11 +134,11 @@ Output Layer (1 Neuron)
 
 The model performance is measured using:
 
-## Mean Squared Error (MSE)
+### Mean Squared Error (MSE)
 
 Measures the average squared difference between actual and predicted values.
 
-## R² Score
+### R² Score
 
 Measures how well the model explains the variance in the target variable.
 
@@ -149,7 +149,7 @@ Higher R² values indicate better predictive performance.
 # 📂 Project Structure
 
 ```text
-ANN-Regression-PyTorch/
+PowerPlant-Predictor-ANN-Regression-with-PyTorch/
 │
 ├── ANN_Regression.ipynb      # Complete ANN Regression notebook
 ├── powerplant_data.csv       # Dataset
@@ -166,6 +166,7 @@ ANN-Regression-PyTorch/
 
 ```bash
 git clone https://github.com/harsh-v16/-PowerPlant-Predictor-ANN-Regression-with-PyTorch.git
+
 cd -PowerPlant-Predictor-ANN-Regression-with-PyTorch
 ```
 
@@ -185,17 +186,13 @@ jupyter notebook ANN_Regression.ipynb
 
 # 📦 Dependencies
 
-```text
-# 📦 Dependencies
-
-| Package | Purpose |
-|----------|----------|
-| PyTorch | Neural Network Development |
-| Pandas | Data Analysis |
-| NumPy | Numerical Computation |
+| Package      | Purpose                    |
+| ------------ | -------------------------- |
+| PyTorch      | Neural Network Development |
+| Pandas       | Data Analysis              |
+| NumPy        | Numerical Computation      |
 | Scikit-Learn | Preprocessing & Evaluation |
-| Jupyter | Notebook Environment |
-```
+| Jupyter      | Notebook Environment       |
 
 ---
 
@@ -218,12 +215,12 @@ jupyter notebook ANN_Regression.ipynb
 Through this project, I learned:
 
 * Building Neural Networks using PyTorch
-* Working with regression problems
-* Data preprocessing techniques
-* Feature scaling using StandardScaler
-* Using DataLoader and TensorDataset
-* Saving and loading trained models
-* Evaluating regression models using MSE and R² Score
+* Working with Regression Problems
+* Data Preprocessing Techniques
+* Feature Scaling using StandardScaler
+* Using TensorDataset and DataLoader
+* Saving and Loading Trained Models
+* Evaluating Regression Models using MSE and R² Score
 
 ---
 
