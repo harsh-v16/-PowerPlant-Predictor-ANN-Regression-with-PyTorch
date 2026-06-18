@@ -151,11 +151,11 @@ Higher R² values indicate better predictive performance.
 ```text
 ANN-Regression-PyTorch/
 │
-├── ANN_Regression.ipynb
-├── powerplant_data.csv
-├── best_model.pt
-├── README.md
-└── requirements.txt
+├── ANN_Regression.ipynb      # Complete ANN Regression notebook
+├── powerplant_data.csv       # Dataset
+├── best_model.pt             # Trained PyTorch model
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
 ```
 
 ---
@@ -165,14 +165,14 @@ ANN-Regression-PyTorch/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/harsh-v16/ANN-Regression-PyTorch.git
-cd ANN-Regression-PyTorch
+git clone https://github.com/harsh-v16/-PowerPlant-Predictor-ANN-Regression-with-PyTorch.git
+cd -PowerPlant-Predictor-ANN-Regression-with-PyTorch
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-pip install pandas numpy torch scikit-learn jupyter
+pip install -r requirements.txt
 ```
 
 ### 3. Launch Jupyter Notebook
@@ -186,11 +186,15 @@ jupyter notebook ANN_Regression.ipynb
 # 📦 Dependencies
 
 ```text
-torch
-pandas
-numpy
-scikit-learn
-jupyter
+# 📦 Dependencies
+
+| Package | Purpose |
+|----------|----------|
+| PyTorch | Neural Network Development |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computation |
+| Scikit-Learn | Preprocessing & Evaluation |
+| Jupyter | Notebook Environment |
 ```
 
 ---
